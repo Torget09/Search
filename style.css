@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a, label {
+    display: inline-block;
+}
+.asosiy {
+    padding: 20px;
+    min-height: 100dvh;
+    line-height: 2.0;
+    transition: 0.5s all linear;
+    text-align: right;
+}
+.button {
+    position: relative;
+    border: none;
+    font-size: 25px;
+    color: black;
+    display: inline-block;
+    transition: 1s all linear;
+}
+.form {
+    width: 250px;
+    position: absolute;
+    border-top: 3px solid blue;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgb(20, 20, 20);
+    right: 10%;
+    top: 100%;
+    transition: 1s all linear;
+    display: none;
+}
+.div {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid blue;
+    position: absolute;
+    left: 90%;
+    bottom: 110%;
+}
+.box {
+    width: 220px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover {
+    background-color: blue;
+}
+.but {
+    background-color: transparent;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 8px;
+}
+.p {
+    font-size: 18px;
+    line-height: 2.5;
+}
+.butt {
+    display: flex;
+}
+
+@media(max-width:1200px){
+    
+};
